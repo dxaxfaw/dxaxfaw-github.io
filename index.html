@@ -117,7 +117,7 @@
 			},
 			created: function () {
 				user_info.then((value) => {
-					this.nameuser = value.last_name + value.first_name
+					this.nameuser = value.last_name + ' ' + value.first_name
 				})
 
 				if (status == 'success') {
